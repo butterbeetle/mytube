@@ -1,4 +1,4 @@
-const LEADING_ZERO_FORMATTER = new Intl.NumberFormat(undefined, {
+const LEADING_ZERO_FORMATTER = new Intl.NumberFormat("en", {
   minimumIntegerDigits: 2,
 });
 
